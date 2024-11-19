@@ -296,112 +296,13 @@ multiple projects done in school with machine learning
  </li>
 </ol>
 
-<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!4------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<h1>Project 3 - Breast Cancer Classification using Hierarchical and K-Means Clustering</h1>
-<p>This project implements both hierarchical and k-means clustering algorithms to analyze and classify breast cancer data using the Breast Cancer Wisconsin dataset. The analysis includes multiple linkage criteria for hierarchical clustering and parameter optimization for k-means clustering.</p>
 
-<h2>Overview</h2>
-<p>The code performs the following main tasks:</p>
+<!5------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<h3>1. Data Loading and Preprocessing:</h3>
-<ul>
- <li>Loads the Breast Cancer Wisconsin dataset from sklearn</li>
- <li>Separates features and target variables</li>
- <li>Applies standard scaling to normalize the features</li>
- <li>Prepares data for both clustering approaches</li>
-</ul>
+<!6------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<h3>2. Hierarchical Clustering Analysis:</h3>
-<ul>
- <li>Implements clustering with multiple linkage criteria:
-   <ul>
-     <li>Ward linkage</li>
-     <li>Complete linkage</li>
-     <li>Average linkage</li>
-     <li>Single linkage</li>
-   </ul>
- </li>
- <li>Generates dendrograms for visual analysis</li>
- <li>Compares clustering structures across different methods</li>
-</ul>
-
-<h3>3. K-Means Clustering Analysis:</h3>
-<ul>
- <li>Implements k-means clustering with optimization</li>
- <li>Evaluates performance using multiple metrics:
-   <ul>
-     <li>Inertia (Elbow method)</li>
-     <li>Silhouette score</li>
-     <li>Calinski-Harabasz score</li>
-   </ul>
- </li>
- <li>Visualizes clustering results using PCA</li>
-</ul>
-
-<h3>4. Performance Evaluation:</h3>
-<ul>
- <li>Compares clustering results with actual labels</li>
- <li>Generates confusion matrices</li>
- <li>Analyzes cluster quality metrics</li>
- <li>Provides visual representations of results</li>
-</ul>
-
-<h2>Results</h2>
-<p>The analysis provides insights into the natural groupings within the breast cancer data:</p>
-<ul>
- <li>Hierarchical clustering reveals the hierarchical structure of the data</li>
- <li>K-means clustering achieves optimal performance with k=2 clusters</li>
- <li>Results align well with the binary nature of the diagnosis (malignant/benign)</li>
-</ul>
-
-<h2>Requirements</h2>
-<ul>
- <li>Python 3.x</li>
- <li>Required libraries:
-   <ul>
-     <li>numpy</li>
-     <li>pandas</li>
-     <li>scikit-learn</li>
-     <li>matplotlib</li>
-     <li>seaborn</li>
-     <li>scipy</li>
-   </ul>
- </li>
-</ul>
-
-<h2>Usage</h2>
-<ol>
- <li>Ensure all required libraries are installed</li>
- <li>Run the Python script or Jupyter notebook</li>
- <li>View the generated visualizations and analysis results</li>
- <li>Check the summary metrics printed at the end of execution</li>
-</ol>
-
-<h2>Files</h2>
-<ul>
- <li><code>project3_clustering.py</code>: Main Python script containing all code and analysis</li>
- <li>Dataset: Built-in Breast Cancer Wisconsin dataset from sklearn</li>
-</ul>
-
-<h2>Implementation Details</h2>
-<p>The implementation follows these steps:</p>
-<ol>
- <li>Data preprocessing with StandardScaler</li>
- <li>Hierarchical clustering implementation with four linkage methods</li>
- <li>K-means clustering with parameter optimization</li>
- <li>Performance evaluation using multiple metrics</li>
- <li>Visualization of results using:
-   <ul>
-     <li>Dendrograms</li>
-     <li>PCA plots</li>
-     <li>Confusion matrices</li>
-     <li>Evaluation metric plots</li>
-   </ul>
- </li>
-</ol>
-
-<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 </body>
 </html>
