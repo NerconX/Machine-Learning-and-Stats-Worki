@@ -699,8 +699,8 @@ multiple projects done in school with machine learning
 <ul>
     <li>Code Files:
         <ul>
-            <li><code>Project6 Part 1 - Pre parameter optimization.ipynb</code>: Pre-optimization implementation with default parameters</li>
-            <li><code>Project6 Part 2 - Post paramter optimization.ipynb</code>: Post-optimization implementation with GridSearchCV</li>
+            <li><code>Project6 Part1.ipynbb</code>: Pre-optimization implementation with default parameters</li>
+            <li><code>Project6 Part2.ipynb</code>: Post-optimization implementation with GridSearchCV</li>
         </ul>
     </li>
     <li>Data Files:
