@@ -195,9 +195,7 @@ multiple projects done in school with machine learning
 
 <h2>Acknowledgments</h2>
 <ul>
- <li>UHD Data Science Program</li>
  <li>Breast Cancer Wisconsin Dataset contributors</li>
- <li>scikit-learn documentation and community</li>
 </ul>
 
 
