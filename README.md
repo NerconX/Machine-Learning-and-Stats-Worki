@@ -4,7 +4,7 @@ multiple projects done in school with machine learning
 <!DOCTYPE html>
 <html>
 <body>
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <h1>Project 1 - Multiphase Flow Pattern Classification using K-Nearest Neighbors</h1>
 
 <p>This project implements a k-Nearest Neighbors (k-NN) classifier to analyze and classify multiphase flow patterns using the <code>BD12Experiments6FP.csv</code> dataset. The analysis includes parameter optimization and performance evaluation.</p>
@@ -90,7 +90,7 @@ multiple projects done in school with machine learning
  <li>Performance evaluation using multiple metrics</li>
  <li>Visualization of results using confusion matrices and bar charts</li>
 </ol>
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <body>
 <h1>Project 2 - Breast Cancer Classification using Logistic Regression</h1>
 <p>This project implements a Logistic Regression classifier to analyze and classify breast cancer tumors as benign or malignant using the Breast Cancer Wisconsin dataset. The analysis includes parameter optimization and performance evaluation.</p>
@@ -295,7 +295,7 @@ multiple projects done in school with machine learning
    </ul>
  </li>
 </ol>
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 </body>
 </html>
