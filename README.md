@@ -76,7 +76,7 @@ multiple projects done in school with machine learning
 
 <h2>Files</h2>
 <ul>
- <li><code>hw1GM.ipynb</code>: Main Jupyter notebook containing all code and analysis</li>
+ <li><code>Project1.ipynb</code>: Main Jupyter notebook containing all code and analysis</li>
  <li><code>BD12Experiments6FP.csv</code>: Dataset containing multiphase flow pattern data</li>
 </ul>
 
@@ -396,7 +396,7 @@ multiple projects done in school with machine learning
 
 <h2>Files</h2>
 <ul>
- <li><code>project_4.py</code>: Main Python script containing all code and analysis</li>
+ <li><code>Project3.py</code>: Main Python script containing all code and analysis</li>
  <li><code>DB_Voice_Features.csv</code>: Dataset containing voice feature measurements for PD classification</li>
 </ul>
 
