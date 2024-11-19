@@ -156,7 +156,7 @@ multiple projects done in school with machine learning
 <h2>Usage</h2>
 <ol>
  <li>Ensure all required libraries are installed</li>
- <li>Load Project2.ipynb in Jupyter Notebook/Lab</li>
+ <li>Load <code>Project2.ipynb</code> in Jupyter Notebook/Lab</li>
  <li>Run all cells sequentially</li>
  <li>Review results and visualizations</li>
 </ol>
