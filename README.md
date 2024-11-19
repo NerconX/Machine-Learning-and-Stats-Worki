@@ -90,7 +90,9 @@ multiple projects done in school with machine learning
  <li>Performance evaluation using multiple metrics</li>
  <li>Visualization of results using confusion matrices and bar charts</li>
 </ol>
+
 <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
 <body>
 <h1>Project 2 - Breast Cancer Classification using Logistic Regression</h1>
 <p>This project implements a Logistic Regression classifier to analyze and classify breast cancer tumors as benign or malignant using the Breast Cancer Wisconsin dataset. The analysis includes parameter optimization and performance evaluation.</p>
@@ -191,6 +193,8 @@ multiple projects done in school with machine learning
 <ul>
  <li>Breast Cancer Wisconsin Dataset contributors</li>
 </ul>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 <h1>Project 3 - Breast Cancer Classification using Hierarchical and K-Means Clustering</h1>
 <p>This project implements both hierarchical and k-means clustering algorithms to analyze and classify breast cancer data using the Breast Cancer Wisconsin dataset. The analysis includes multiple linkage criteria for hierarchical clustering and parameter optimization for k-means clustering.</p>
@@ -297,11 +301,148 @@ multiple projects done in school with machine learning
 </ol>
 
 <!---------------------------------------------------------------------------------------------------------------------------------------4---------------------------------------------------------------------------------------------------------------------->
+<h1>Project 4 - Parkinson's Disease Classification using Decision Trees and Random Forests</h1>
+<p>This project implements Decision Tree (DT) and Random Forest (RF) classifiers to analyze and classify Parkinson's Disease patients using the <code>DB_Voice_Features.csv</code> dataset. The analysis includes parameter optimization, handling class imbalance, and performance evaluation.</p>
 
+<h2>Overview</h2>
+<p>The code performs the following main tasks:</p>
 
-<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<h3>1. Data Loading and Preprocessing:</h3>
+<ul>
+ <li>Loads the <code>DB_Voice_Features.csv</code> dataset</li>
+ <li>Separates features and target variables</li>
+ <li>Splits data into training (80%) and testing (20%) sets</li>
+ <li>Removes non-numeric columns ('name' and 'status')</li>
+</ul>
 
-<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<h3>2. Initial Model Implementation:</h3>
+<ul>
+ <li>Implements base Decision Tree classifier</li>
+ <li>Implements base Random Forest classifier</li>
+ <li>Evaluates initial performance metrics</li>
+ <li>Generates performance visualization</li>
+</ul>
+
+<h3>3. Parameter Optimization:</h3>
+<ul>
+ <li>Uses <code>GridSearchCV</code> to find optimal parameters</li>
+ <li>For Decision Tree:
+   <ul>
+     <li>Tests different max_depth values</li>
+     <li>Optimizes min_samples_split and min_samples_leaf</li>
+     <li>Evaluates different criterion options (gini, entropy)</li>
+   </ul>
+ </li>
+ <li>For Random Forest:
+   <ul>
+     <li>Tests different n_estimators values</li>
+     <li>Optimizes max_depth and min_samples parameters</li>
+     <li>Implements cross-validation</li>
+   </ul>
+ </li>
+</ul>
+
+<h3>4. Performance Comparison:</h3>
+<ul>
+ <li>Evaluates model performance before and after optimization</li>
+ <li>Analyzes impact of class balancing</li>
+ <li>Compares Decision Tree vs Random Forest results</li>
+ <li>Reports comprehensive performance metrics</li>
+</ul>
+
+<h2>Results</h2>
+<p>The optimization and balancing processes improved the models' performance:</p>
+
+<ul>
+ <li>Decision Tree:
+   <ul>
+     <li>Initial accuracy: 92.31%</li>
+     <li>Initial F1 Score: 95.38%</li>
+     <li>Post-balancing F1 Score: 88.89%</li>
+   </ul>
+ </li>
+ <li>Random Forest:
+   <ul>
+     <li>Optimized accuracy: 95.00%</li>
+     <li>Post-balancing improvements across metrics</li>
+     <li>Final F1 Score: 94.74%</li>
+   </ul>
+ </li>
+</ul>
+
+<p>The Random Forest model showed superior performance after optimization and balancing, indicating more reliable predictions across all metrics.</p>
+
+<h2>Requirements</h2>
+<ul>
+ <li>Python 3.x</li>
+ <li>Required libraries:
+   <ul>
+     <li>numpy</li>
+     <li>pandas</li>
+     <li>scikit-learn</li>
+     <li>matplotlib</li>
+     <li>seaborn</li>
+   </ul>
+ </li>
+</ul>
+
+<h2>Usage</h2>
+<ol>
+ <li>Ensure all required libraries are installed</li>
+ <li>Place the <code>DB_Voice_Features.csv</code> file in the same directory as the script</li>
+ <li>Run the Python script</li>
+ <li>View results and performance metrics</li>
+</ol>
+
+<h2>Files</h2>
+<ul>
+ <li><code>project_4.py</code>: Main Python script containing all code and analysis</li>
+ <li><code>DB_Voice_Features.csv</code>: Dataset containing voice feature measurements for PD classification</li>
+</ul>
+
+<h2>Implementation Details</h2>
+<p>The implementation follows these steps:</p>
+<ol>
+ <li>Data preprocessing:
+   <ul>
+     <li>Loading and cleaning dataset</li>
+     <li>Feature selection and extraction</li>
+     <li>80-20 train-test split</li>
+   </ul>
+ </li>
+ <li>Initial model implementation:
+   <ul>
+     <li>Base Decision Tree deployment</li>
+     <li>Base Random Forest deployment</li>
+     <li>Initial performance assessment</li>
+   </ul>
+ </li>
+ <li>Parameter optimization:
+   <ul>
+     <li>Grid search implementation</li>
+     <li>Cross-validation for both models</li>
+     <li>Hyperparameter tuning</li>
+   </ul>
+ </li>
+ <li>Class imbalance handling:
+   <ul>
+     <li>Minority class upsampling</li>
+     <li>Model retraining with balanced data</li>
+     <li>Performance reassessment</li>
+   </ul>
+ </li>
+ <li>Final evaluation:
+   <ul>
+     <li>Comprehensive metric analysis</li>
+     <li>Model comparison</li>
+     <li>Results visualization</li>
+   </ul>
+ </li>
+</ol>
+
+<!---------------------------------------------------------------------------------------------------------------------------------------5---------------------------------------------------------------------------------------------------------------------->
+
+<!---------------------------------------------------------------------------------------------------------------------------------------6---------------------------------------------------------------------------------------------------------------------->
 
 
 </body>
