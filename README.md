@@ -91,9 +91,6 @@ multiple projects done in school with machine learning
  <li>Visualization of results using confusion matrices and bar charts</li>
 </ol>
 
-<head>
-<title>Breast Cancer Classification Project</title>
-</head>
 <body>
 <h1>Project 2 - Breast Cancer Classification using Logistic Regression</h1>
 <p>This project implements a Logistic Regression classifier to analyze and classify breast cancer tumors as benign or malignant using the Breast Cancer Wisconsin dataset. The analysis includes parameter optimization and performance evaluation.</p>
