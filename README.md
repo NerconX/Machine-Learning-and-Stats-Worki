@@ -5,7 +5,7 @@ multiple projects done in school with machine learning
 This project implements a k-Nearest Neighbors (k-NN) classifier to analyze and classify multiphase flow patterns using the BD12Experiments6FP dataset. The analysis includes parameter optimization and performance evaluation.
 Overview
 The code performs the following main tasks:
-
+<br> 
 Data Loading and Preprocessing:
   Loads the BD12Experiments6FP.csv dataset
   Separates features and target variables
