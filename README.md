@@ -279,7 +279,7 @@ multiple projects done in school with machine learning
 <h2>Files</h2>
 <ul>
  
- <li><code>Project2.ipynb</code>: Main Python script containing all code and analysis</li>
+ <li><code>Project3.ipynb</code>: Main Python script containing all code and analysis</li>
  <li>Dataset: Built-in Breast Cancer Wisconsin dataset from sklearn</li>
 </ul>
 
