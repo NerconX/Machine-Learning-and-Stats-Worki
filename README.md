@@ -1,4 +1,4 @@
-# Statistical and Machine Learning Projects
+<h1> Statistical and Machine Learning Projects </h1>
 multiple projects done in school with machine learning
 
 ## Project 1 - Multiphase Flow Pattern Classification using K-Nearest Neighbors
@@ -12,13 +12,11 @@ The code performs the following main tasks:<br>
   Splits data into training (80%) and testing (20%) sets <br> 
   Applies standard scaling to normalize the features <br> 
 
-
 ### Initial KNN Classification:
   Implements basic k-NN classifier
   Evaluates initial performance metrics
   Generates confusion matrix visualization
-
-
+  
 ### Parameter Optimization:
   Uses GridSearchCV to find optimal k value
   Tests k values from 1 to 50
