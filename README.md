@@ -1,76 +1,101 @@
 <h1> Statistical and Machine Learning Projects </h1>
 multiple projects done in school with machine learning
 
-# Project 1 - Multiphase Flow Pattern Classification using K-Nearest Neighbors
-This project implements a k-Nearest Neighbors (k-NN) classifier to analyze and classify multiphase flow patterns using the BD12Experiments6FP dataset. The analysis includes parameter optimization and performance evaluation. <br> 
+<!DOCTYPE html>
+<html>
+<head>
+<title>Multiphase Flow Pattern Classification</title>
+</head>
+<body>
 
-## Overview <br> 
-The code performs the following main tasks:<br> 
+<h1>Multiphase Flow Pattern Classification using K-Nearest Neighbors</h1>
 
-### Data Loading and Preprocessing: <br> 
-  Loads the BD12Experiments6FP.csv dataset <br> 
-  Separates features and target variables <br> 
-  Splits data into training (80%) and testing (20%) sets <br> 
-  Applies standard scaling to normalize the features <br> 
+<p>This project implements a k-Nearest Neighbors (k-NN) classifier to analyze and classify multiphase flow patterns using the BD12Experiments6FP dataset. The analysis includes parameter optimization and performance evaluation.</p>
 
-### Initial KNN Classification: <br>
-  Implements basic k-NN classifier <br>
-  Evaluates initial performance metrics <br>
-  Generates confusion matrix visualization <br>
-  
-### Parameter Optimization: <br>
-  Uses GridSearchCV to find optimal k value <br>
-  Tests k values from 1 to 50 <br>
-  Implements cross-validation <br>
-  Applies best parameters to improve model performance <br>
+<h2>Overview</h2>
+<p>The code performs the following main tasks:</p>
 
+<h3>1. Data Loading and Preprocessing:</h3>
+<ul>
+ <li>Loads the BD12Experiments6FP.csv dataset</li>
+ <li>Separates features and target variables</li>
+ <li>Splits data into training (80%) and testing (20%) sets</li>
+ <li>Applies standard scaling to normalize the features</li>
+</ul>
 
-### Performance Comparison: <br>
-  Compares accuracy before and after optimization <br>
-  Visualizes results using bar charts <br>
-  Analyzes confusion matrices <br>
-  Reports precision, recall, and F1 scores <br>
+<h3>2. Initial KNN Classification:</h3>
+<ul>
+ <li>Implements basic k-NN classifier</li>
+ <li>Evaluates initial performance metrics</li>
+ <li>Generates confusion matrix visualization</li>
+</ul>
 
-### Results <br>
-The optimization process improved the model's performance: <br>
-<br>
-Initial accuracy: 87% <br>
-Optimized accuracy: 90% <br>
-Overall improvement: 3% <br>
+<h3>3. Parameter Optimization:</h3>
+<ul>
+ <li>Uses GridSearchCV to find optimal k value</li>
+ <li>Tests k values from 1 to 50</li>
+ <li>Implements cross-validation</li>
+ <li>Applies best parameters to improve model performance</li>
+</ul>
 
-The optimized model showed better precision and F1 scores across all classes, indicating more reliable predictions.
-Requirements
+<h3>4. Performance Comparison:</h3>
+<ul>
+ <li>Compares accuracy before and after optimization</li>
+ <li>Visualizes results using bar charts</li>
+ <li>Analyzes confusion matrices</li>
+ <li>Reports precision, recall, and F1 scores</li>
+</ul>
 
-Python 3.x
-Required libraries:
+<h2>Results</h2>
+<p>The optimization process improved the model's performance:</p>
+<ul>
+ <li>Initial accuracy: 87%</li>
+ <li>Optimized accuracy: 90%</li>
+ <li>Overall improvement: 3%</li>
+</ul>
+<p>The optimized model showed better precision and F1 scores across all classes, indicating more reliable predictions.</p>
 
-numpy
-pandas
-scikit-learn
-matplotlib
-seaborn
+<h2>Requirements</h2>
+<ul>
+ <li>Python 3.x</li>
+ <li>Required libraries:
+   <ul>
+     <li>numpy</li>
+     <li>pandas</li>
+     <li>scikit-learn</li>
+     <li>matplotlib</li>
+     <li>seaborn</li>
+   </ul>
+ </li>
+</ul>
 
+<h2>Usage</h2>
+<ol>
+ <li>Ensure all required libraries are installed</li>
+ <li>Place the BD12Experiments6FP.csv file in the same directory as the notebook</li>
+ <li>Run the Jupyter notebook cells sequentially</li>
+ <li>View results and visualizations</li>
+</ol>
 
+<h2>Files</h2>
+<ul>
+ <li><code>hw1GM.ipynb</code>: Main Jupyter notebook containing all code and analysis</li>
+ <li><code>BD12Experiments6FP.csv</code>: Dataset containing multiphase flow pattern data</li>
+ <li><code>README.md</code>: This file</li>
+</ul>
 
-Usage
+<h2>Implementation Details</h2>
+<p>The implementation follows these steps:</p>
+<ol>
+ <li>Data splitting: 80-20 train-test split</li>
+ <li>Feature scaling using StandardScaler</li>
+ <li>Initial k-NN implementation with default parameters</li>
+ <li>Grid search for optimal k value</li>
+ <li>Performance evaluation using multiple metrics</li>
+ <li>Visualization of results using confusion matrices and bar charts</li>
+</ol>
 
-Ensure all required libraries are installed
-Place the BD12Experiments6FP.csv file in the same directory as the notebook
-Run the Jupyter notebook cells sequentially
-View results and visualizations
+<p>Let me know if you would like me to modify or add any other information to this README!</p>
 
-Files
-
-hw1GM.ipynb: Main Jupyter notebook containing all code and analysis
-BD12Experiments6FP.csv: Dataset containing multiphase flow pattern data
-README.md: This file
-
-Implementation Details
-The implementation follows these steps:
-
-Data splitting: 80-20 train-test split
-Feature scaling using StandardScaler
-Initial k-NN implementation with default parameters
-Grid search for optimal k value
-Performance evaluation using multiple metrics
-Visualization of results using confusion matrices and bar charts
+</body>
+</html>
