@@ -8,9 +8,9 @@ multiple projects done in school with machine learning
 </head>
 <body>
 
-<h1>Multiphase Flow Pattern Classification using K-Nearest Neighbors</h1>
+<h1>Project 1 - Multiphase Flow Pattern Classification using K-Nearest Neighbors</h1>
 
-<p>This project implements a k-Nearest Neighbors (k-NN) classifier to analyze and classify multiphase flow patterns using the BD12Experiments6FP dataset. The analysis includes parameter optimization and performance evaluation.</p>
+<p>This project implements a k-Nearest Neighbors (k-NN) classifier to analyze and classify multiphase flow patterns using the <code>BD12Experiments6FP.csv</code> dataset. The analysis includes parameter optimization and performance evaluation.</p>
 
 <h2>Overview</h2>
 <p>The code performs the following main tasks:</p>
