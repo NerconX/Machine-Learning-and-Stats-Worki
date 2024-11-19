@@ -14,7 +14,7 @@ multiple projects done in school with machine learning
 
 <h3>1. Data Loading and Preprocessing:</h3>
 <ul>
- <li>Loads the BD12Experiments6FP.csv dataset</li>
+ <li>Loads the <code>BD12Experiments6FP.csv</code> dataset</li>
  <li>Separates features and target variables</li>
  <li>Splits data into training (80%) and testing (20%) sets</li>
  <li>Applies standard scaling to normalize the features</li>
