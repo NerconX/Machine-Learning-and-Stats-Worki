@@ -396,7 +396,7 @@ multiple projects done in school with machine learning
 
 <h2>Files</h2>
 <ul>
- <li><code>Project3.py</code>: Main Python script containing all code and analysis</li>
+ <li><code>Project4.ipynb</code>: Main Python script containing all code and analysis</li>
  <li><code>DB_Voice_Features.csv</code>: Dataset containing voice feature measurements for PD classification</li>
 </ul>
 
