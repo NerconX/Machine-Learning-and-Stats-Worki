@@ -669,6 +669,57 @@ multiple projects done in school with machine learning
     </li>
 </ul>
 
+<h2>Usage</h2>
+<ol>
+    <li>Ensure all required libraries are installed</li>
+    <li>Place the well log data files (*.npy) in the working directory:
+        <ul>
+            <li><code>19A.npy</code></li>
+            <li><code>BT2.npy</code></li>
+            <li><code>F1B.npy</code></li>
+            <li><code>SR.npy</code></li>
+        </ul>
+    </li>
+    <li>Run both pre and post optimization scripts sequentially:
+        <ul>
+            <li>Part 1: Pre-optimization baseline analysis</li>
+            <li>Part 2: Parameter optimization and comparison</li>
+        </ul>
+    </li>
+    <li>View performance metrics and visualizations:
+        <ul>
+            <li>Depth vs. Vp plots</li>
+            <li>MSE and R² scores</li>
+            <li>Parameter optimization results</li>
+        </ul>
+    </li>
+</ol>
+
+<h2>Files</h2>
+<ul>
+    <li>Code Files:
+        <ul>
+            <li><code>project6_part1.py</code>: Pre-optimization implementation with default parameters</li>
+            <li><code>project6_part2.py</code>: Post-optimization implementation with GridSearchCV</li>
+        </ul>
+    </li>
+    <li>Data Files:
+        <ul>
+            <li><code>19A.npy</code>: Well log data from well 19A</li>
+            <li><code>BT2.npy</code>: Well log data from well BT2</li>
+            <li><code>F1B.npy</code>: Well log data from well F1B</li>
+            <li><code>SR.npy</code>: Well log data from well SR</li>
+        </ul>
+    </li>
+    <li>Output Files:
+        <ul>
+            <li>Visualization plots for each model and well combination</li>
+            <li>Performance metrics in CSV format</li>
+            <li>Optimization results summary</li>
+        </ul>
+    </li>
+</ul>
+
 <h2>Implementation Impact</h2>
 <p>The two-phase approach revealed several important insights:</p>
 <ul>
