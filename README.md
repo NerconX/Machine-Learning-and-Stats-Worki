@@ -582,6 +582,151 @@ multiple projects done in school with machine learning
 </body>
 
 <!---------------------------------------------------------------------------------------------------------------------------------------6---------------------------------------------------------------------------------------------------------------------->
+<body>
+<h1>Project 6 - Well Log Analysis and Vp Prediction using Machine Learning Models</h1>
+<p>This project implements and compares four machine learning algorithms (MLP, SVM, Decision Tree, and Random Forest) in their ability to predict P-wave velocity (Vp) from well log data. The analysis is deliberately split into pre- and post-optimization phases to demonstrate the impact of parameter tuning on model performance.</p>
+
+<h2>Analysis Overview</h2>
+<p>The project was structured in two parts to examine the evolution of model performance:</p>
+
+<h3>1. Pre-Optimization Phase:</h3>
+<ul>
+    <li>Initial Implementation:
+        <ul>
+            <li>MLP: Single hidden layer (100 neurons), default parameters</li>
+            <li>SVM: RBF kernel, default C=1.0, epsilon=0.1</li>
+            <li>Decision Tree: Default parameters</li>
+            <li>Random Forest: 100 estimators</li>
+        </ul>
+    </li>
+    <li>Baseline Performance:
+        <ul>
+            <li>MLP showed good initial performance with low MSE</li>
+            <li>SVM demonstrated varied performance (R² 0.529 to 0.803)</li>
+            <li>Decision Tree achieved high accuracy with R² close to 1</li>
+            <li>Random Forest showed excellent performance with high R² values</li>
+        </ul>
+    </li>
+</ul>
+
+<h3>2. Post-Optimization Phase:</h3>
+<ul>
+    <li>Parameter Optimization:
+        <ul>
+            <li>MLP: Tested various hidden layer sizes, alpha values, and learning rates</li>
+            <li>SVM: Optimized C, gamma, and epsilon parameters</li>
+            <li>Decision Tree: Tuned max_depth, min_samples_split, and min_samples_leaf</li>
+            <li>Random Forest: Adjusted n_estimators, max_depth, and min_samples_split</li>
+        </ul>
+    </li>
+    <li>Optimization Impact:
+        <ul>
+            <li>MLP: Performance decreased, suggesting possible overfitting</li>
+            <li>SVM: Significant improvement in both R² and MSE</li>
+            <li>Decision Tree: Maintained high performance with slight improvements</li>
+            <li>Random Forest: Maintained robust performance across parameter changes</li>
+        </ul>
+    </li>
+</ul>
+
+<h2>Key Findings</h2>
+<ul>
+    <li>Model Behavior:
+        <ul>
+            <li>Random Forest proved most robust and stable</li>
+            <li>SVM showed highest improvement from optimization</li>
+            <li>MLP demonstrated sensitivity to parameter changes</li>
+            <li>Decision Tree maintained consistent performance</li>
+        </ul>
+    </li>
+    <li>Parameter Sensitivity:
+        <ul>
+            <li>Random Forest: Least sensitive to parameter changes</li>
+            <li>SVM: Most benefited from optimization</li>
+            <li>MLP: Most sensitive to parameter adjustments</li>
+            <li>Decision Tree: Moderately affected by optimization</li>
+        </ul>
+    </li>
+</ul>
+
+<h2>Methodology Benefits</h2>
+<ul>
+    <li>Educational Value:
+        <ul>
+            <li>Clear demonstration of optimization impact</li>
+            <li>Understanding of model behavior patterns</li>
+            <li>Insight into parameter sensitivity</li>
+            <li>Real-world performance implications</li>
+        </ul>
+    </li>
+    <li>Practical Insights:
+        <ul>
+            <li>Identification of most stable models</li>
+            <li>Understanding of optimization necessity</li>
+            <li>Resource allocation guidance</li>
+            <li>Model selection criteria establishment</li>
+        </ul>
+    </li>
+</ul>
+
+<h2>Implementation Impact</h2>
+<p>The two-phase approach revealed several important insights:</p>
+<ul>
+    <li>Performance Variations:
+        <ul>
+            <li>Not all models benefit equally from optimization</li>
+            <li>Some models perform well with default parameters</li>
+            <li>Optimization can sometimes degrade performance</li>
+            <li>Model stability varies significantly</li>
+        </ul>
+    </li>
+    <li>Practical Implications:
+        <ul>
+            <li>Random Forest: Best choice for robust performance</li>
+            <li>SVM: Requires optimization for best results</li>
+            <li>MLP: Needs careful parameter tuning</li>
+            <li>Decision Tree: Good baseline performer</li>
+        </ul>
+    </li>
+</ul>
+
+<h2>Notes on Pre vs Post Optimization Results</h2>
+<ul>
+    <li>MLP Performance:
+        <ul>
+            <li>Pre: Good performance with low MSE across all wells</li>
+            <li>Post: Decreased performance suggesting optimization led to overfitting</li>
+        </ul>
+    </li>
+    <li>SVM Performance:
+        <ul>
+            <li>Pre: Moderate performance with R² ranging from 0.529 to 0.803</li>
+            <li>Post: Significant improvement in both R² and MSE values</li>
+        </ul>
+    </li>
+    <li>Decision Tree Performance:
+        <ul>
+            <li>Pre: High accuracy with R² values close to 1</li>
+            <li>Post: Maintained high performance with minor improvements</li>
+        </ul>
+    </li>
+    <li>Random Forest Performance:
+        <ul>
+            <li>Pre: Excellent performance with high R² values</li>
+            <li>Post: Consistently high performance across different parameter settings</li>
+            <li>Note: Longest computational time among all models</li>
+        </ul>
+    </li>
+</ul>
+
+<h2>Conclusions</h2>
+<p>The project demonstrated that:</p>
+<ul>
+    <li>Parameter optimization's impact varies significantly across models</li>
+    <li>Default parameters can sometimes provide optimal performance</li>
+    <li>Model selection should consider optimization requirements</li>
+    <li>Understanding baseline performance is crucial for effective model development</li>
+</ul>
 
 
 </body>
