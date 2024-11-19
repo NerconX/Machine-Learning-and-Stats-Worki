@@ -3,9 +3,6 @@ multiple projects done in school with machine learning
 
 <!DOCTYPE html>
 <html>
-<head>
-Multiphase Flow Pattern Classification
-</head>
 <body>
 
 <h1>Project 1 - Multiphase Flow Pattern Classification using K-Nearest Neighbors</h1>
