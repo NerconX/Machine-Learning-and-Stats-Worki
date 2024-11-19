@@ -4,7 +4,7 @@ multiple projects done in school with machine learning
 <!DOCTYPE html>
 <html>
 <head>
-<title>Multiphase Flow Pattern Classification</title>
+Multiphase Flow Pattern Classification
 </head>
 <body>
 
