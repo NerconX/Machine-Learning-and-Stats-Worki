@@ -442,6 +442,145 @@ multiple projects done in school with machine learning
 
 <!---------------------------------------------------------------------------------------------------------------------------------------5---------------------------------------------------------------------------------------------------------------------->
 
+<body>
+<h1>Project 5 - Glioblastoma Single Cell RNA-seq Classification using SVM and MLP</h1>
+<p>This project implements Support Vector Machine (SVM) and Multi-Layer Perceptron (MLP) classifiers to analyze and classify single-cell RNA sequencing data from Glioblastoma patients. The analysis includes handling class imbalance, parameter optimization, and comprehensive performance evaluation.</p>
+
+<h2>Overview</h2>
+<p>The code performs the following main tasks:</p>
+
+<h3>1. Data Loading and Preprocessing:</h3>
+<ul>
+    <li>Loads the Glioblastoma Single Cell RNA-seq dataset</li>
+    <li>Performs exploratory data analysis</li>
+    <li>Visualizes class distribution</li>
+    <li>Checks for missing values</li>
+    <li>Applies standard scaling to normalize features</li>
+</ul>
+
+<h3>2. Initial Model Implementation:</h3>
+<ul>
+    <li>Implements basic SVM classifier</li>
+    <li>Implements basic MLP classifier</li>
+    <li>Evaluates initial performance metrics</li>
+    <li>Generates classification reports</li>
+    <li>Calculates accuracy, precision, recall, and F1 scores</li>
+</ul>
+
+<h3>3. Parameter Optimization:</h3>
+<ul>
+    <li>Uses GridSearchCV for hyperparameter tuning</li>
+    <li>For SVM:
+        <ul>
+            <li>Tests different values for C parameter</li>
+            <li>Evaluates different kernels (linear, rbf)</li>
+            <li>Tests various gamma values</li>
+        </ul>
+    </li>
+    <li>For MLP:
+        <ul>
+            <li>Optimizes hidden layer sizes</li>
+            <li>Tests different activation functions</li>
+            <li>Adjusts learning rate alpha</li>
+        </ul>
+    </li>
+</ul>
+
+<h3>4. Class Imbalance Handling:</h3>
+<ul>
+    <li>Implements SMOTE for balanced sampling</li>
+    <li>Retrains models on balanced dataset</li>
+    <li>Compares performance before and after balancing</li>
+</ul>
+
+<h3>5. Performance Comparison:</h3>
+<ul>
+    <li>Compares accuracy across all model variants</li>
+    <li>Analyzes classification reports</li>
+    <li>Evaluates impact of parameter optimization</li>
+    <li>Assesses effectiveness of imbalance handling</li>
+</ul>
+
+<h2>Results</h2>
+<p>The optimization and balancing process showed significant improvements:</p>
+
+<ul>
+    <li>SVM:
+        <ul>
+            <li>Initial accuracy: 100%</li>
+            <li>Maintained perfect accuracy after optimization</li>
+            <li>Possible indication of overfitting</li>
+        </ul>
+    </li>
+    <li>MLP:
+        <ul>
+            <li>Initial accuracy: 97%</li>
+            <li>Optimized accuracy: 99%</li>
+            <li>Improved performance after parameter tuning</li>
+        </ul>
+    </li>
+</ul>
+
+<h2>Requirements</h2>
+<ul>
+    <li>Python 3.x</li>
+    <li>Required libraries:
+        <ul>
+            <li>numpy</li>
+            <li>pandas</li>
+            <li>scikit-learn</li>
+            <li>matplotlib</li>
+            <li>seaborn</li>
+            <li>imbalanced-learn (for SMOTE)</li>
+        </ul>
+    </li>
+</ul>
+
+<h2>Usage</h2>
+<ol>
+    <li>Ensure all required libraries are installed</li>
+    <li>Load <code>Project5.ipynb</code> in Jupyter Notebook/Lab</li>
+    <li>Run all cells sequentially</li>
+    <li>Review results and visualizations</li>
+</ol>
+
+<h2>Files</h2>
+<ul>
+    <li><code>Project5.ipynb</code>: Main Jupyter notebook containing all code and analysis</li>
+    <li><code>Data_Glioblastoma5Patients_SC.csv</code>: Dataset containing single-cell RNA-seq data</li>
+</ul>
+
+<h2>Implementation Details</h2>
+<p>The implementation follows these steps:</p>
+<ol>
+    <li>Dataset loading and exploratory analysis</li>
+    <li>Data preprocessing and scaling</li>
+    <li>Initial model training (SVM and MLP)</li>
+    <li>Grid search optimization</li>
+    <li>Class imbalance handling using SMOTE</li>
+    <li>Comprehensive performance evaluation</li>
+    <li>Results visualization and comparison</li>
+</ol>
+
+<h2>Key Findings</h2>
+<ul>
+    <li>Class imbalance present in the original dataset</li>
+    <li>SVM achieved perfect classification but potential overfitting</li>
+    <li>MLP showed improvement after optimization</li>
+    <li>Parameter tuning more effective for MLP than SVM</li>
+    <li>SMOTE successfully addressed class imbalance issues</li>
+</ul>
+
+<h2>Acknowledgments</h2>
+<ul>
+    <li>Source of Glioblastoma Single Cell RNA-seq dataset</li>
+    <li>Contributors to scikit-learn and imbalanced-learn libraries</li>
+</ul>
+
+<h2>Note on Results</h2>
+<p>The perfect accuracy achieved by the SVM classifier suggests potential overfitting and should be interpreted with caution. The MLP classifier showed more realistic performance improvements through optimization, indicating it might be more suitable for generalization to new data.</p>
+</body>
+
 <!---------------------------------------------------------------------------------------------------------------------------------------6---------------------------------------------------------------------------------------------------------------------->
 
 
