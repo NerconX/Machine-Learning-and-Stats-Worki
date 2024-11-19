@@ -1,38 +1,38 @@
 # Statistical and Machine Learning Projects
 multiple projects done in school with machine learning
 
-# Hw1 Multiphase Flow Pattern Classification using K-Nearest Neighbors
+## Hw1 Multiphase Flow Pattern Classification using K-Nearest Neighbors
 This project implements a k-Nearest Neighbors (k-NN) classifier to analyze and classify multiphase flow patterns using the BD12Experiments6FP dataset. The analysis includes parameter optimization and performance evaluation. <br> 
 Overview <br> 
 The code performs the following main tasks:<br> 
 
-Data Loading and Preprocessing:
-  Loads the BD12Experiments6FP.csv dataset
-  Separates features and target variables
-  Splits data into training (80%) and testing (20%) sets
-  Applies standard scaling to normalize the features
+### Data Loading and Preprocessing: <br> 
+  Loads the BD12Experiments6FP.csv dataset <br> 
+  Separates features and target variables <br> 
+  Splits data into training (80%) and testing (20%) sets <br> 
+  Applies standard scaling to normalize the features <br> 
 
 
-Initial KNN Classification:
+### Initial KNN Classification:
   Implements basic k-NN classifier
   Evaluates initial performance metrics
   Generates confusion matrix visualization
 
 
-Parameter Optimization:
+### Parameter Optimization:
   Uses GridSearchCV to find optimal k value
   Tests k values from 1 to 50
   Implements cross-validation
   Applies best parameters to improve model performance
 
 
-Performance Comparison:
+### Performance Comparison:
   Compares accuracy before and after optimization
   Visualizes results using bar charts
   Analyzes confusion matrices
   Reports precision, recall, and F1 scores
 
-Results
+### Results
 The optimization process improved the model's performance:
 
 Initial accuracy: 87%
