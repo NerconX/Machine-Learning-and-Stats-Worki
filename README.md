@@ -29,7 +29,7 @@ multiple projects done in school with machine learning
 
 <h3>3. Parameter Optimization:</h3>
 <ul>
- <li>Uses GridSearchCV to find optimal k value</li>
+ <li>Uses <code>GridSearchCV</code> to find optimal k value</li>
  <li>Tests k values from 1 to 50</li>
  <li>Implements cross-validation</li>
  <li>Applies best parameters to improve model performance</li>
@@ -69,7 +69,7 @@ multiple projects done in school with machine learning
 <h2>Usage</h2>
 <ol>
  <li>Ensure all required libraries are installed</li>
- <li>Place the BD12Experiments6FP.csv file in the same directory as the notebook</li>
+ <li>Place the <code>BD12Experiments6FP.csv</code> file in the same directory as the notebook</li>
  <li>Run the Jupyter notebook cells sequentially</li>
  <li>View results and visualizations</li>
 </ol>
