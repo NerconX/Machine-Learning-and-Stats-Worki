@@ -94,7 +94,5 @@ multiple projects done in school with machine learning
  <li>Visualization of results using confusion matrices and bar charts</li>
 </ol>
 
-<p>Let me know if you would like me to modify or add any other information to this README!</p>
-
 </body>
 </html>
