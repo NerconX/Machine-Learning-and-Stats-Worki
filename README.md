@@ -81,7 +81,6 @@ multiple projects done in school with machine learning
 <ul>
  <li><code>hw1GM.ipynb</code>: Main Jupyter notebook containing all code and analysis</li>
  <li><code>BD12Experiments6FP.csv</code>: Dataset containing multiphase flow pattern data</li>
- <li><code>README.md</code>: This file</li>
 </ul>
 
 <h2>Implementation Details</h2>
