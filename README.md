@@ -577,7 +577,7 @@ multiple projects done in school with machine learning
     <li>Contributors to scikit-learn and imbalanced-learn libraries</li>
 </ul>
 
-<h2>Note on Results</h2>
+<h2>Note on Results for Project 5</h2>
 <p>The perfect accuracy achieved by the SVM classifier suggests potential overfitting and should be interpreted with caution. The MLP classifier showed more realistic performance improvements through optimization, indicating it might be more suitable for generalization to new data.</p>
 </body>
 
